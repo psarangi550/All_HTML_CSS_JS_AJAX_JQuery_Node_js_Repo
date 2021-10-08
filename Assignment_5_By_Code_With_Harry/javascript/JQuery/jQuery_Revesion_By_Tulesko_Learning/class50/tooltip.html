@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.theme.css">
+</head>
+<body>
+    <div id="mydiv">
+        <h3>JQuery Tool Tip Widgets</h3>
+        <img src="https://lh3.googleusercontent.com/ogw/ADea4I5LaKAnStOwzENlBJ1opPmSjGgpKHwWSAF5PszsTw=s83-c-mo" alt="" title="code with Pratik">
+    </div>
+    <script src="jQuery.js"></script>
+    <script src="jQuery-ui/jquery-ui.js"></script>
+    <script>
+        $("img").tooltip({
+            track:true,
+            content:"code with Pratik Learn Code EveryDay",
+            //must need tittle attribute in the html element
+            show:{effect:"bounce",duration:"slow"}
+        })
+    </script>
+</body>
+</html>

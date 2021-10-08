@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Image Uploader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Festive&family=STIX+Two+Math&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&family=STIX+Two+Math&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.css">
+  <!--linkiing the fontawesome file into this-->
+  <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+  <!--linking the boot strap CSS into the HTML File-->
+  <link rel="stylesheet" href="../Bootstrap/css/mdb.css">
+  <!--linking the Mdb CSS into the HTML File-->
+  <link rel="stylesheet" href="App.css">
+  <!--linking the local stylesheet to HTML head-->
+</head>
+<body>
+
+<!--NavBar Setting for the Image Uploader-->
+
+<nav class="navbar navbar-default  navbar-fixed-top bg-dark text-white">
+  <div class="navbar-header">
+    <a href="#" class="navbar-brand text-white">JS_Image_Uploader</a>
+  </div>
+</nav>
+
+
+<!--for Uploading the file File Uploader-->
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-6 m-auto">
+        <div class="card">
+          <div class="card-header bg-warning text-center">
+          <h3 class="text-white">Image Upload</h3>
+          </div>
+          <div class="card-body">
+            <form action="" id="upload-form">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+              </div>
+              <div class="form-group mt-3 font-weight-bold">
+                <input type="submit" value="Upload File" id="upload-btn" class="btn btn-warning btn-sm font-weight-bold text-dark">
+                <button class="btn btn-warning btn-sm font-weight-bold text-dark"  id="remove-btn">Remove All</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!--image to be displayed-->
+<div class="container mt-3">
+  <div class="row" id="card-row">
+<!--    <div class="col-md-3">-->
+<!--      <div class="card">-->
+<!--        <img src="IMG1.jpg" alt="" class="image-fluid card-image">-->
+<!--        <h3 class="card-title mt-2">IMAGE</h3>-->
+<!--        <p class="lead card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, quasi.</p>-->
+<!--      </div>-->
+<!--    </div>-->
+  </div>
+</div>
+
+<!--linking the bootstrap amd MDB js File-->
+<script src="../Bootstrap/js/jquery.js"></script>
+<script src="../Bootstrap/js/popper.js"></script>
+<script src="../Bootstrap/js/bootstrap.js"></script>
+<script src="../Bootstrap/js/mdb.js"></script>
+
+<!--linking the local JS File into this-->
+<script src="App.js"></script>
+</body>
+</html>

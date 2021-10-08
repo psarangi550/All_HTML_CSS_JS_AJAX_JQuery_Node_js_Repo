@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Selector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: black;
+            color: white;
+            /* background-image: url(https://source.unsplash.com/WLUHO9A_xik/1600x900); */
+            /* background-repeat: no-repeat;
+            background-size: cover; */
+            font-family: 'Newsreader', serif;
+        }
+        /* hr{
+
+        } */
+
+
+        .navigation {
+            /* border:2px solid red; */
+            display: flex;
+            list-style: none;
+            padding: 13px 8px;
+            /* margin:0px 10px; */
+        }
+
+        .navigation li {
+            padding: 2px 22px;
+        }
+        header::before{
+            content:url(https://source.unsplash.com/user/erondu/1600x900); 
+            /* background-image:url(https://source.unsplash.com/user/erondu/1600x900); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:absolute;
+            /* width:100%;
+            height:100%; */
+            top:0px;
+            left:0px;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        section {
+            display:flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 50VH;
+            align-items: center;
+            /* justify-content: center; */
+            /* margin: 122px auto; */
+            /* border: 2px solid white; */
+
+
+        }
+
+        h1 {
+            text-align: center;
+            /* padding: 30px; */
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+            /* padding: 10px; */
+            font-size: 2rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item" id="item1">Home</li>
+                <li class="item" id="item2">About</li>
+                <li class="item" id="item3">Security</li>
+                <li class="item" id="item4">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to code With Pratik</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum mollitia quibusdam magnam, iusto consequuntur
+            repellendus ab nostrum cupiditate doloribus eos! Quas error impedit doloribus. Deserunt, incidunt eligendi
+            molestias doloribus ipsum, corrupti ex autem est, expedita voluptate non. Illo, minima distinctio.</p>
+            
+    </section>
+    
+    <HR></HR>
+</body>
+
+</html>

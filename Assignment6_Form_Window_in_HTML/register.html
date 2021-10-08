@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+  <form action="result.html" method="get">
+  <h1>Registration Form</h1>
+  <h2>All Field Are Mandetory</h2>
+  <label for="uname">Enter UserName</label><!--creating the Label with Purpose-->
+  <input type="text" id="uname" name="username" value="" placeholder="Enter Name" required><br><br><!--input text window with name,id,placeholder attribute-->
+  <label for="uemail">Enter Email Address</label><!--creating the Label with Purpose-->
+  <input type="email" id="uemail" name="email" value="" placeholder="Enter Email Id" required><br><br><!--input Email window with name,id,placeholder attribute-->
+  <label for="age">Enter Age</label><!--creating the Label with Purpose-->
+  <input type="number" id="age" name="Age" value="" placeholder="Enter Age" required><br><br><!--input number window with name,id,placeholder attribute-->
+  <label for="rbutton">Are You Interested in Dating :</label><br><br>
+  <!--label tag with purpose in the for attribute which is linked to input tag-->
+  <input type="radio" id="rbutton"name="radio" value="yes"><label for="rbutton">YES</label>
+  <!--input Radio Button linked to label tag and with name as radio and value as yes and here the YES Value Display to the end User-->
+  <input type="radio" id="rbutton"name="radio" value="No"><label for="rbutton">NO</label><br><br>
+  <!--input Radio Button linked to label tag and with name as radio and value as yes and here the NO Value Display to the end User-->
+  <!--Here the Name Attribut of the <input> Tag being same as we have to choose Only One Option -->
+  <label for="sbox">Your Expectation Like:</label><br><br>
+  <!--label with purpose in the for attribute linked to select tag-->
+  <select name="actress" id="sbox" multiple><!--Select Tag in Order to select Multiple option with multiple attribute--><br>
+    <option value="kkaif" checked>Katrina Kaif</option><!--Option Tag with Value which will be provided to the backend and by defauult checked with checked attribute-->
+    <option value="kkapoor">Kareena Kapoor</option>
+    <!--Option Tag with Value which will be provided to the backend -->
+    <option value="sleone">Sunnu Leone</option>
+    <!--Option Tag with Value which will be provided to the backend -->
+    <option value="mserawat">Mallika Serawat</option>
+    <!--Option Tag with Value which will be provided to the backend -->
+  </select><!--closing the select Tag for the Dropdown Button--><br><br>
+  <label for="dbox">How Many Marriage You want</label><!--Label attribute with Prpose in for attribute--><br><br>
+  <select id="dbox" name="no">
+    <option value="1" selected>1</option><!--Option Tag with Value which will be provided to the backend and by defauult selected with selected attribute-->
+    <option value="2">2</option>
+    <!--Option Tag with Value which will be provided to the backend -->
+    <option value="3">3</option>
+    <!--Option Tag with Value which will be provided to the backend -->
+    <option value="4">4</option>
+    <!--Option Tag with Value which will be provided to the backend -->
+  </select><!--closing the Select box for deopdown Option--><br><br>
+  <label for="cbox">Are You Heavy Alcholic ?</label><!--creating the Label with prpose in the for attribute--><br><br>
+  <input type="checkbox" id="cbox" name="checkbox" value="yes" checked><label for="cbox">Yes</label>
+  <!--input check box with name attribute and value attribut which will be used in the backend and Yes Will be displayed to front End User which is not linked to input Tag and By default checked due to checked  attribute -->
+  <input type="checkbox" id="cbox" name="checkbox" value="no"><label for="cbox">No</label>
+  <!--input check box with name attribute and value attribut which will be used in the backend and No Will be displayed to front End User which is not linked to input Tag-->
+  <input type="checkbox" id="cbox" name="checkbox" value="oweekend"><label for="cbox">Only Weekends</label>
+  <!--input check box with name attribute and value attribut which will be used in the backend and Only Weekend Will be displayed to front End User which is not linked to input Tag--><br><br>
+  <!--<textarea> tag for adding the text Area-->
+  <label for="textarea">Your Preference and Extra Information</label><br>
+  <!--Label widget with Purpose in the for attribute-->
+  <textarea name="textwidget" id="textarea" rows="8" cols="80"></textarea>
+  <!--textarea Widget for entering the text with row value as 8 and column as 80 with name attribute valuse will be fetched on click by using the name attribute-->
+  <!--creating submit button-->
+  <br><!--line break-->
+  <br><!--line break-->
+  <input type="submit" value="submit">
+  <!--input submit button with value attribute-->
+</form>
+</body>
+</html>

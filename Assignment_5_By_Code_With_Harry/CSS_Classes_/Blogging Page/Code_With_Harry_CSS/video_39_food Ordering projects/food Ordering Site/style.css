@@ -1,0 +1,222 @@
+    *{
+        /*CSS Reset*/
+        margin:0px;
+        padding:0px;
+    }
+    :root{
+        --my_width:50px;
+    }
+    /*Navigation Bar*/
+    #navbar{
+        display:flex;
+        height:80px;
+        align-items: center;
+        position:relative;
+        top:0px;
+    }
+    #navbar .logo{
+        margin: 9px 9px;
+        padding: 6px 3px;
+    }
+    #navbar .logo img{
+        padding:3px 3px;
+        border-radius: 20px;
+        
+    }
+    #navbar ul{
+        display:flex;
+        font-family: 'Noto Serif', serif;
+    }
+    #navbar ul  li{
+        list-style:none;
+        margin:7px 17px
+    }
+    #navbar ul li a{
+        text-decoration:none;
+        font-size:20px;
+        padding: 10px 6px;
+        color:white;
+        border-radius: 20px;
+    }
+    #navbar::before{
+        content: "";
+        background-color: black;
+        position:absolute;
+        width:100%;
+        height:1%;
+        top:0px;
+        left:0px;
+        z-index: -1;
+        opacity: 0.6;
+    }
+    #navbar ul li a:hover{
+        background-color:white;
+        color: black;;
+    }
+
+    /*Home Section Decoration*/
+    #home .box{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin:3px 100px; */
+        margin: 20px 100px;
+        height: 300px;
+    }
+    #home::before{
+        content: "";
+        background:url(bg1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position:absolute;
+        width:100%;
+        height:420px;
+        /* height:17%; */
+        top:0px;
+        left:0px;
+        z-index: -1;
+        opacity: 0.8;
+    }
+
+    .box p{
+        font-family: 'Noto Serif', serif;
+        padding:10px;
+        font-size: 1.5rem;
+        color: white;
+    }
+    #home .box h1{
+        color:white
+    }
+    .btn{
+        padding:10px;
+        background-color: rgb(245, 187, 187);
+        border-radius: 20px;
+        font-family: 'Noto Serif', serif;
+        font-size: 14px;
+        cursor: pointer;
+        margin:5px 3px;
+
+    }
+    /*Heme Section Ended*/
+    /*Service section*/
+    #service-container{
+        height:490px;
+        /* border: 4px solid black; */
+        margin: 3px 1px;
+    }
+    .service{
+        display:flex;
+        height:400px;
+    }
+    .service-item{
+        /* border:4px solid black; */
+        width:30%;
+        border-radius:23px;
+        margin:5px 20px;
+        background-color: #bfd6be;
+    }
+    .service img{
+        height:150px;
+        display:block;
+        margin: 8px auto;
+        padding: 2px 9px;
+        border-radius: 23px;
+    }
+    .service-item p{
+        padding:35px;
+    } 
+
+    /*Service section Ended*/
+    
+    /*client scetion*/
+    
+    #clients{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .client-item img{
+        width:100px;
+        border-radius: 20px;
+        margin:30px 10px;
+    }
+    #client-section{
+        background:url(contact-us.jpg);
+        opacity:0.7;
+        /* margin: 3px 40px 3px 25px; */
+    }
+    
+    /*client section Ended*/
+
+    /*Contact-Us Section*/
+    #contact-box{
+        display:flex;
+        justify-content:center;
+
+    }
+    .contact-items{
+        margin-top:10px;
+    }
+    .contact-items input{
+            padding:10px;
+            width: 100%;
+            border:4px groove #cde4c9a6;
+            margin:5px 5px;
+            border-radius: 23px;
+    }
+    .contact-items textarea{
+        padding:10px;
+        width: 100%;
+        border:4px groove #cde4c9a6;
+        margin:5px 5px;
+        border-radius: 23px;
+}
+    .contact-items label{
+        font-family: 'Noto Serif', serif;
+        /* padding: 6px 3px;
+        margin: 5px 15px; */
+        margin:auto;
+        font-weight: bold;
+        width:100%;
+    }
+    #contact-box{
+        background:url(https://previews.123rf.com/images/o0matze0o/o0matze0o1805/o0matze0o180500018/101535114-website-and-internet-contact-us-page-concept-with-hanging-icons-in-front-of-a-silver-background.jpg);
+        height: 600px;
+        background-repeat:no-repeat;
+        background-size: cover;
+        margin: 15px 40px 3px 25px;
+        padding:10px 10px;
+    }
+
+    .contact-items .btn{
+        width:100%;
+    }
+    
+    /*Contact-Us Section Ended*/
+
+    /*footer Starts*/
+    footer{
+        background-color:black;
+        color:white;
+        margin-top: 12px;
+    }
+    /*Footer Ends*/
+
+    /*Utility class*/
+    .h-primary{
+        font-family: 'Noto Serif', serif;
+        font-size:2.8rem;;
+        padding:5px;
+    }
+    .center{
+        text-align: center;
+        
+    }
+    .h-secondary{
+        font-family: 'Noto Serif', serif;
+        font-size:1.8rem;;
+        padding:5px;
+    }

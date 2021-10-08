@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Employee Portal _Part_1_using Ajax</title>
+  <!--Linking All the CSS File Over here-->
+  <link rel="stylesheet" href="../Bootstrap/fontawesome-free-5.15.3-web/css/all.css">
+  <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../Bootstrap/css/mdb.css">
+  <link rel="stylesheet" href="App.css">
+</head>
+<body>
+
+
+<!--creating the Navbar for display-->
+<nav class="navbar navbar-dark bg-dark">
+  <a href="#" class="navbar-brand">Employee Portal part 1 using AJAX</a>
+</nav>
+
+
+<!--Creating the Employee Portal-->
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <h1>Employee Portal</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis cupiditate mollitia nemo nesciunt nihil obcaecati quasi quia sint tempora. Aliquid architecto debitis delectus, expedita fugiat magnam mollitia natus quaerat. Assumenda aut dolores dolorum eius laboriosam nam possimus qui tempore!</p>
+      <button class="btn btn-success" data-toggle="modal" data-target="#employee-modal">Add Employee</button>
+    </div>
+  </div>
+</div>
+
+
+<!--Creating the Table-->
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <table class="table table-bordered table-hover text-center table-stripped">
+        <thead class="text-uppercase table-dark">
+        <tr>
+          <th>Emp Id</th>
+          <th>Emp first_Name</th>
+          <th>Emp last_name</th>
+          <th>Emp email</th>
+          <th>Emp Gender</th>
+          <th>Emp ip_address</th>
+          <th>Action</th>
+        </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<!--creating the Modal on the Add Employee Button-->
+<div class="modal" id="employee-modal">
+  <div class="modal-dialog">
+    <div class="modal-content animated slideInLeft ">
+      <div class="modal-header bg-success text-white">
+          <h3> Add Employee</h3>
+        <button class="close" data-dismiss="modal">
+          <i class="fa fa-times-circle"></i>
+        </button>
+      </div>
+      <div class="modal-body bg-light">
+        <form action="" id="employees-form">
+          <div class="form-group">
+            <input required type="text" name="" id="add-first-name" class="form-control" placeholder="Enter First Name">
+          </div>
+          <div class="form-group">
+            <input  required type="text" name="" id="add-last-name" class="form-control" placeholder="Enter Last Name">
+          </div>
+          <div class="form-group">
+            <input required type="email" name="" id="add-email" class="form-control" placeholder="Enter Email Address ">
+          </div>
+          <div class="form-group">
+            <select  required name="" id="add-gender" class="form-control">
+              <option value="">Select Gender</option>
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input required type="text" name="" id="add-ip-address" class="form-control" placeholder="Enter IP_Address">
+          </div>
+          <div class="form-group">
+            <input required type="submit" class="btn btn-success" value="Add Employee">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--creating the modal for update Employee-->
+<div class="modal" id="update-employee-modal">
+  <div class="modal-dialog">_
+    <div class="modal-content animated slideInRight ">
+      <div class="modal-header bg-secondary text-white">
+        <h3> Update Employee</h3>
+        <button class="close" data-dismiss="modal">
+          <i class="fa fa-times-circle"></i>
+        </button>
+      </div>
+      <div class="modal-body bg-light">
+        <form action="" id="update-employees-form">
+<!--          <div class="form-group">-->
+            <input hidden type="text" name="" id="update-id" class="form-control" placeholder="Enter ID">
+<!--          </div>-->
+          <div class="form-group">
+            <input required type="text" name="" id="update-first-name" class="form-control" placeholder="Enter First Name">
+          </div>
+          <div class="form-group">
+            <input  required type="text" name="" id="update-last-name" class="form-control" placeholder="Enter Last Name">
+          </div>
+          <div class="form-group">
+            <input required type="email" name="" id="update-email" class="form-control" placeholder="Enter Email Address ">
+          </div>
+          <div class="form-group">
+            <select  required name="" id="update-gender" class="form-control">
+              <option value="">Select Gender</option>
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input required type="text" name="" id="update-ip-address" class="form-control" placeholder="Enter IP_Address">
+          </div>
+          <div class="form-group">
+            <input required type="submit" class="btn btn-secondary" value="Update Employee">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Here we need to link all the JS File -->
+<script src="../Bootstrap/js/jquery.js"></script>
+<script src="../Bootstrap/js/popper.js"></script>
+<script src="../Bootstrap/js/bootstrap.js"></script>
+<script src="../Bootstrap/js/mdb.js"></script>
+<!--linking the out own Js file over her-->
+<script type="module" src="App.js"></script>
+</body>
+</html>

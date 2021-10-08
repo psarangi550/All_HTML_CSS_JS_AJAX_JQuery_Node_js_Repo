@@ -1,0 +1,31 @@
+/*case:-1:-Setting the background of body tag as #bdc646*/
+body{/*setting the <body> tag and child tag styling property */
+    background: #bdc646;/*changing the bac kground color to #bdc646*/
+}
+
+/*case:-2:-Setting the text color of h1 tag as #9b79b8*/
+h1{/*setting the <h1> tag and child tag styling property */
+    color:#9b79b8;/*changing the bac text color to #9b79b8*/
+}
+
+/*case:-3:-Setting the text color of h2 tag as yellow*/
+h2{/*setting the <h2> tag and child tag styling property */
+    color:yellow;/*changing the bac text color to yellow*/
+}
+
+/*case:-4:-Setting the text color of <li> tag as #0518c4*/
+li{/*setting all the <li> tag and child tag styling property due to CSS Inheritance */
+    color:#0518c4;/*changing the bac text color to #0518c4*/
+}
+
+/*case:-10:-provide a left margin of 150 px to the inpiut checkbox which are by default :checked*/
+input[checked]{/*providing styling only to the imput tag where checked attribute is there in the HTML file */ 
+    margin-left: 150px;/*providing Left Margin between the input text box and the label which been linked to input box*/
+}
+/*Altwernate way for case 10 approach*/
+/*case:-10:-alternative way:-provide a left margin of 150 px to the inpiut checkbox which are by default :checked*/
+input:checked{/*providing styling only to the imput tag where checked attribute is there in the HTML file */ 
+    margin-left: 150px;/*providing Left Margin between the input text box and the label which been linked to input box*/
+}
+
+/*Case:-12 here i want to change the last letter of  paragraph where id=myid*/

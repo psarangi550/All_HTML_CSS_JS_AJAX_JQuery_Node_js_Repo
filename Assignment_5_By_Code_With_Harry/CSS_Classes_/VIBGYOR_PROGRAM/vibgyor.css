@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Pacifico', cursive;
+}
+p{
+    margin-top: 200px;
+    text-align: center;
+}
+span{
+    margin-left:20px;
+}
+#violet{
+    border:80px solid violet;
+    /* margin-left: 50px; */
+    /* margin-top: 100px; */
+    /* width:1%; */
+}
+#Indigo{
+    border:80px solid indigo;
+    /* margin-left: 20px;
+    margin-top: 100px;
+    width:1%; */
+}
+#Blue{
+    border: 80px solid blue;
+    /* margin-left: 20px;
+    margin-top: 100px;
+    width:1%; */
+}
+#Green{
+    border:80px solid green;
+    /* margin-left: 20px;
+    margin-top: 100px;
+    width:1%; */
+}
+#Yellow{
+    border:80px solid yellow;
+    /* margin-left: 20px;
+    margin-top: 100px;
+    width:1%; */
+}
+#Orange{
+    border:80px solid orange;
+    /* margin-left: 20px;
+    margin-top: 100px;
+    width:1%; */
+}
+#Red{
+    border:80px solid red;
+    /* margin-left: 20px;
+    margin-top: 100px;
+    width:1%; */
+}

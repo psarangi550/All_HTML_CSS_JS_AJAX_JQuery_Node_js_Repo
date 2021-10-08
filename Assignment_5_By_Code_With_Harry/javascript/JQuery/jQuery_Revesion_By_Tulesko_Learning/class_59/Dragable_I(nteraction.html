@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.theme.css">
+</head>
+<body>
+    <div class="mydiv">
+        <div class="cube">
+            <h3>CUBE1</h3>
+        </div>
+        <div class="cube">
+            <h3>CUBE2</h3>
+        </div>
+        </div>
+        <script src="jQuery.js"></script>
+<script src="jQuery-ui/jquery-ui.js"></script>    
+<script>
+    $(".cube").draggable({
+        // axis:"x",
+        // containment:"parent",
+        // cursor:"grabbing",
+        // opacity:0.3
+        // grid:[300,300]
+    //     snap:true,
+    //     snapTolerance:100
+    })
+</script>
+</body>
+</html>

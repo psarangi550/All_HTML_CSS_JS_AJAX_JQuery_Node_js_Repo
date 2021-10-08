@@ -1,0 +1,46 @@
+h1{
+    text-align:center;
+}
+td{
+    height: 300px;
+    width:100px;   
+}
+.table{
+    margin-top: 100px;
+    /* margin-left: 300px; */
+    margin: auto;
+    margin-top:100px;
+}
+#violet{
+    background-color: violet;
+    border:10px solid white;
+    
+}
+#Indigo{
+    background-color: indigo;
+    border:10px solid white;
+
+}
+#Blue{
+    background-color: blue;
+    border:10px solid white;
+
+}
+#Green{
+    background-color: green;
+    border:10px solid white;
+
+}
+#Yellow{
+    background-color: yellow;
+    border:10px solid white;
+
+}#Orange{
+    background-color: orange;
+    border:10px solid white;
+
+}
+#Red{
+    background-color: red;
+    border:10px solid white; 
+}

@@ -1,0 +1,86 @@
+/*nav-sexction*/
+#navbar{
+    flex-direction: column;
+    margin:10px;
+}
+/*nav section :end*/
+
+
+/*home section*/
+
+#home{
+    height: 300px;
+}
+#home::before{
+    height:442px;
+}
+#home .box{
+    height: 201px;
+    margin: 10px 9px;
+}
+#home .service  .service-item p{
+    font-family: 'Noto Serif', serif;
+    padding: 0px;
+    font-size: 4px;
+    color: white;
+}
+#home .box h1{
+    font-size: 17px;
+    padding:0px;
+    margin: -17px;
+
+}
+/*home section Ends*/
+
+/*service section */
+
+.service{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#service-container{
+    /* display:block; */
+}
+
+/* .h-secondary{
+    font-family: 'Noto Serif', serif;
+    font-size:0.3rem;;
+    padding:1px;
+} */
+
+/*service section  Ends*/
+
+/*client-sectiom*/
+
+#clients{
+    flex-wrap: wrap;
+    
+}
+
+#client img{
+    width:50px;
+    height:50px;
+}
+
+#client-section{
+    margin: 700px 0px 10px 0px;
+}
+
+/* .h-primary{
+    font-family: 'Noto Serif', serif;
+    font-size:0.8rem;
+    padding:5px; 
+} */
+.center{ 
+    text-align: center;
+    font-size:4px;
+    font-size: 4px;
+    
+}
+/* .h-secondary{
+    font-family: 'Noto Serif', serif;
+    font-size:0.5rem;;
+    padding:5px;
+} */

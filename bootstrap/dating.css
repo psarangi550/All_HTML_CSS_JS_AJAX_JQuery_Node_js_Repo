@@ -1,0 +1,34 @@
+.center{
+    text-align: center;
+    padding-top:35%;
+}
+.center h1{
+    font-weight: 700;
+}
+.center #text-h1{
+    color:#20c59f;
+    font-size: 5em;
+
+}
+.center p{
+    font-weight: 700;
+    
+}
+.center #text-para{
+    color:white;
+    font-size: 2em;
+}
+body{
+    background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+.center hr{
+    width:60%
+}
+html{
+    height:100%
+}

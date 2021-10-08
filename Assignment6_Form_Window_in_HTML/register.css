@@ -1,0 +1,25 @@
+/*CSS file In Order to Style the HTML Register Page*/
+body {/*changing the style of <body> tag in HTML*/
+  border: 0px solid cyan;/*changing the Border to cyan colour and with 2 pixel*/
+  background:url(https://i.pinimg.com/originals/1e/89/5e/1e895e64a399be5775e9b2333205b5af.jpg)/*here changing the background of body using the Image URL or Desktop Path for URL Window*/
+}
+h1{/*changing the syle of h1 window using css*/
+  color:white;/*changing the color to white color*/
+}
+h2{/*changing the syle of h2 window using css*/
+  color:white;/*changing the color to white color*/
+}
+label{/*changing the syle of label tag using css*/
+  color:white;/*changing the color to white color*/
+}
+input{/*changing the syle of Input tag using css*/
+  background-color:transparent;/*changing the color to transperent color*/
+  color:white;/*changing the color to white color*/
+}
+h1:hover{/* if we hovwer over the Mouse on the h1 Tag then*/
+  color:yellow;/*changing the color to Yellow color*/
+  font:100px;/*on Hover the font size changed to 20px*/
+}
+h2:hover{/* if we hovwer over the Mouse on the h2 Tag then*/
+  color:green;/*changing the color to green color*/
+}

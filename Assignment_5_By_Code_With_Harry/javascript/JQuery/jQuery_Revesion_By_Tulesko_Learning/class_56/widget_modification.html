@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.theme.css">
+</head>
+<body>
+    <ul id="menu">
+        <li>
+          <div>Item 1</div>
+        </li>
+    <li>
+          <div>Item 2</div>
+        </li>
+        <li>
+          <div>Item 3</div>
+          <ul>
+            <li>
+              <div>Item 3-1</div>
+              <ul>
+                <li>
+                  <div>Item 3-1-1</div>
+                </li>
+                <li>
+                  <div>Item 3-2-1</div>
+                </li>
+                <li>
+                  <div>Item 3-3-1</div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div>Item 3-2</div>
+            </li>
+            <li>
+              <div>Item 3-3</div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div>Item 4</div>
+        </li>
+        <li>
+          <div>Item 5</div>
+        </li>
+    </ul>
+    <script src="jQuery.js"></script>
+    <script src="jQuery-ui/jquery-ui.js"></script>
+    <script>
+      $("#menu").menu()
+    </script>
+</body>
+</html>

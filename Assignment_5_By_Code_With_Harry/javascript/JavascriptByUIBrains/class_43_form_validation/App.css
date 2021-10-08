@@ -1,0 +1,39 @@
+body{
+  background-color: #573e3e;
+}
+.card{
+  box-shadow: 0 0 25px black;
+}
+.pratik{
+  box-shadow: 0 0 10px black;
+}
+.btn{
+  border-radius:50px;
+  color:black;
+  font-weight: bolder;
+}
+.rika{
+  background-color: #92826e
+}
+.is_form_valid{
+  border:4px solid limegreen;
+  border-left:20px solid limegreen;
+  box-shadow: 0 0 10px limegreen;
+
+}
+.is_form_invalid{
+  border:4px solid orangered;
+  border-left:20px solid orangered;
+  box-shadow: 0 0 10px orangered;
+
+}
+.text-success{
+  color:limegreen !important;
+  font-size:15px !important;
+  font-weight:bolder !important
+}
+
+.text-danger{
+  color:orangered !important;
+  font-size:15px !important
+}

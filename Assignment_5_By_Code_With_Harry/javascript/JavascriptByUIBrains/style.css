@@ -1,0 +1,14 @@
+nav{
+  background:aqua;
+  /*height:50px;*/
+ text-decoration:none;
+  border-radius: 10px;
+}
+p{
+  padding:15px  20px;
+  font-family:arial;
+  font-size:20px;
+}
+nav a {
+  text-decoration:line-through
+}

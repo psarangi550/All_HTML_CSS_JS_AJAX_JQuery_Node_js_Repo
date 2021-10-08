@@ -1,0 +1,44 @@
+td{
+    height:50px;
+    width:50px;
+}
+td:hover{
+    background-color: aqua;
+}
+table{
+    margin:auto;
+    margin-top:100px
+}
+#one{
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+}
+#Two{
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+}
+#Three{
+    border-bottom: 2px solid black;
+}
+#Four{
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+}
+#Five{
+    border-right:2px solid black;
+    border-bottom: 2px solid black;  
+}
+#Six{
+    border-bottom: 2px solid black;
+}
+#Seven{
+    border-right:2px solid black; 
+}
+#Eight{
+    border-right:2px solid black;
+}
+h1{
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Dancing Script', cursive;
+}

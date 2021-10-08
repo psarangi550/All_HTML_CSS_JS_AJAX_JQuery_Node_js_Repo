@@ -1,0 +1,6 @@
+.carousel .carousel-indicators li {
+  width: 40px;
+  height: 5px;
+  cursor: pointer;
+  border-radius: 0%
+}

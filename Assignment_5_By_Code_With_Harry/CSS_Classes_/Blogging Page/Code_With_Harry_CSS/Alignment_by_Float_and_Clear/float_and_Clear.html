@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Alignment</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {}
+
+        .container {
+
+            border: 4px solid rgb(0, 174, 255);
+            width: 800px;
+            margin: auto;
+            background: blanchedalmond;
+
+
+        }
+
+        .ITEM {
+            border: 4px solid red;
+            margin: 12px 10px;
+            padding: 12px 10px;
+            background-color: chartreuse;
+
+        }
+
+        #FRUIT {
+            float: right;
+            width: 47%;
+
+        }
+
+        #COMPUTER {
+            float: left;
+            width: 47%;
+
+        }
+
+        #STATIONARY {
+            /* float:right;
+        width:100%; */
+            /* float: right;
+        width:100% */
+            /* clear:left; */
+            /* float:left; */
+            width: 97%;
+            clear: both;
+            /* clear: both; */
+
+        }
+
+        /* #GLASSES{
+            float:left;
+            clear:both;
+        } */
+
+        /* p,
+        h1 {
+            text-align: center;
+        } */
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to the Store</h1>
+        <DIV id="FRUIT" class="ITEM">
+            <h3>Fruit</h3>
+            <p id="FruitPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore accusamus
+                maxime laudantium quae. Maiores pariatur molestias magni illum ratione natus optio veniam, neque eaque
+                minus nihil ad quisquam. Repellendus atque nobis quia sequi. Minima?Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Accusamus modi repudiandae ullam nihil ipsam fuga ex, ut expedita. Porro
+                voluptates architecto quia accusamus cupiditate optio rerum fugiat repudiandae, corrupti adipisci,
+                aliquid beatae, accusantium voluptate.</p>
+        </DIV>
+        <DIV id="COMPUTER" class="ITEM">
+            <h3>Computer</h3>
+            <p id="computerPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                accusamus maxime laudantium quae. Maiores pariatur molestias magni illum ratione natus optio veniam,
+                neque eaque minus nihil ad quisquam. Repellendus atque nobis quia sequi. Minima?Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Cum eos consequuntur voluptatum nostrum veniam ut dolorem aspernatur
+                voluptas accusantium voluptatibus, ea nisi optio a maiores, ratione asperiores velit sint, praesentium
+                nulla consequatur dolor natus!Lorem*10 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia illo praesentium aut accusamus adipisci. Eos omnis ex qui voluptatum. Atque aut eius
+                perspiciatis amet accusamus assumenda molestias in, voluptatem soluta.</p>
+        </DIV>
+        <DIV id="STATIONARY" class="ITEM">
+            <h3>Stationary</h3>
+            <p id="stationaryPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                accusamus maxime laudantium quae. Maiores pariatur molestias magni illum ratione natus optio veniam,
+                neque eaque minus nihil ad quisquam. Repellendus atque nobis quia sequi. Minima?</p>
+        </DIV>
+        <DIV id="GLASSES" class="ITEM">
+            <h3>Stationary</h3>
+            <p id="stationaryPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                accusamus maxime laudantium quae. Maiores pariatur molestias magni illum ratione natus optio veniam,
+                neque eaque minus nihil ad quisquam. Repellendus atque nobis quia sequi. Minima?</p>
+        </DIV>
+
+    </div>
+</body>
+
+</html>

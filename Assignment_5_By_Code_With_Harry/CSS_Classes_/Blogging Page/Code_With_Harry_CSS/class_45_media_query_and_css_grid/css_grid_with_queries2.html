@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid with Media Queries</title>
+    <style>
+        body{
+            background:steelblue;
+        }
+        footer{
+            text-align:center;
+            font-weight: bold;
+        }
+        .item{
+            background:sandybrown;
+            border:3px solid black;
+            font-size: 20px;;
+        }
+        .container{
+            background:salmon;
+            display:grid;
+            grid-gap:1rem;
+            grid-template-areas: 
+            "navbar navbar navbar navbar"
+            "section section section aside"
+            "footer footer footer footer"
+            ;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #portion{
+            grid-area: section;
+        }
+        #aside{
+            grid-area:aside;
+        }
+        #copyright{
+            grid-area: footer;
+        }
+
+        @media only screen and (max-width:300px){
+            body{
+                background:sienna;
+
+            }
+            .container{
+            background:salmon;
+            display:grid;
+            grid-gap:1rem;
+            grid-template-areas: 
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer"
+            ;
+        }
+        span{
+            display: block;
+            text-align:center;
+        }
+        #aside{
+            display:none;
+        }
+        
+        }
+        @media only screen and (min-width:300px) and (max-width:600px){
+            body{
+                background:rgb(45, 152, 160);
+
+            }
+            .container{
+            background:salmon;
+            display:grid;
+            grid-gap:1rem;
+            grid-template-areas: 
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer"
+            ;
+        }
+        span{
+            display: block;
+            text-align:center;
+        }
+        #aside{
+            display:none;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar" class="item">
+            <span>Home</span> 
+            <span>Aboout</span>
+            <span>Services</span>
+            <span>conmtact-Us</span>
+        </nav>
+        <section id="portion" class="item">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, cum.</h1>
+        </section>
+        <aside class="item" id="aside">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed, veritatis praesentium ex quis porro.</h1>
+        </aside>
+        <footer class="item" id="copyright">
+            This is a Footer
+        </footer>
+    </div>
+</body>
+</html>

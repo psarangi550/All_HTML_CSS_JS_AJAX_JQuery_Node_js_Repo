@@ -1,0 +1,40 @@
+body{
+    height:750px;
+    width:800px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border:10px solid red;
+}
+div{
+    background-image: url(https://i.pinimg.com/originals/5c/05/b4/5c05b45508c185a9ccb9b3f815140d93.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+h2{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+    margin: 20px;
+}
+input[type="submit"]{
+    background:url(https://pngimage.net/wp-content/uploads/2018/06/join-us-button-png-2.png);
+    background-repeat: no-repeat;
+    background-size:cover
+}
+h3{
+    text-align: center;    
+}
+form{
+    font-size: 1.15em;
+}

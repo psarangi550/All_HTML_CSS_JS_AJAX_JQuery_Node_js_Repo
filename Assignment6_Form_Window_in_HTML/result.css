@@ -1,0 +1,10 @@
+/*CSS file In Order to Style the HTML Result Page*/
+h1 {/* changing the style for the h1 Tag*/
+color:magenta;/*changing the color to magenta color*/
+}
+h2 {/* changing the style for the h2 Tag*/
+color:teal;/*changing the color to teal color*/
+}
+body{/*changing the style of <body> tag in HTML*/
+  background:url(https://i.pinimg.com/originals/28/87/3f/28873f3a9487f0f0471192f598bd1049.jpg)/*here changing the background of body using the Image URL or Desktop Path for URL Window*/
+}

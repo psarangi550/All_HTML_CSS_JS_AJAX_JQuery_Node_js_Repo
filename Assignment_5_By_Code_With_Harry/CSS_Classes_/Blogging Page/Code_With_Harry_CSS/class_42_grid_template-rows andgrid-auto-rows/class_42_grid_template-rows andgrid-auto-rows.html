@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid reference with Rows</title>
+    <style>
+        .grid{/*Providing style to the class attribute value in the HTML*/
+            display: grid;/*making the container as grid and child of the container as grid items*/
+            grid-template-rows: 1fr 1fr 4fr;/*Provoding Row style by the help of franction unit or fr unit */
+            grid-auto-rows: 2fr;/*providing style for redt of the left out rows*/
+            /* grid-template-columns: 1fr 4fr 2fr;Providing the Style to grid item colums */
+            grid-gap: 1.5rem;/*providing gap between the grid items*/
+            grid-template-columns: repeat(2, auto);/*Using the repeat function on the grid items*/
+
+        }
+        .items{/*Providing style to the class attribute value in the HTML*/
+            background-color: brown;/*Providing the background color as brown*/
+            border: 2px solid black;/*Providing border with border-width/thickness border-style border-color*/
+            margin:5px;/*Providing Margin in top and bottom and left and right*/
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="items">This is Item-1</div>
+        <div class="items">This is Item-2</div>
+        <div class="items">This is Item-3</div>
+        <div class="items">This is Item-4</div>
+        <div class="items">This is Item-5</div>
+        <div class="items">This is Item-6</div>
+        <div class="items">This is Item-7</div>
+        <div class="items">This is Item-8</div>
+        <div class="items">This is Item-9</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.theme.css">
+</head>
+<body>
+    <!--Case:1-->
+    <!-- <div id="mydiv">
+        <h3>JQuery Datepicker</h3>
+    </div> -->
+    <!--case:2-->
+    <div id="mydiv">
+        <h3>JQuery Datepicker</h3>
+        <input type="text" name="" id="myinput">
+    </div>
+    <script src="jQuery.js"></script>
+    <script src="jQuery-ui/jquery-ui.js"></script>
+    <script>
+        $("#myinput").datepicker({
+            changeMonth: true,
+            changeYear:true,
+            // dateFormat:"dd-mm-yy",
+            minDate: new Date(2017, 0, 6),
+            maxDate:new Date(2022, 11, 7)
+        });
+    </script>
+</body>
+</html>

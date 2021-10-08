@@ -1,0 +1,26 @@
+td{/* Providing style to all the <td> as element selector*/
+    height:30px;/*providing height of the table data in order make it visible*/
+    width:30px;/*providing width of the table data in order make it visible*/
+    border:2px solid brown;
+}
+#black{
+    background-color: black;/*Providing background color as black*/
+    /*Herte Background and background color being same */
+
+}
+/*if we even not ptovide white as background it will work as the default color as black */
+/*but here providing the white background with white background*/
+#white{
+    background-color: white;/*Providing background color as black*/
+    /*Herte Background and background color being same */
+
+}
+/* In Order to Make the table as in to the middle we have to use margin:auto; in the table*/
+/*but keep in mind that margin:auto aline the the element in the left and right but not to the center*/
+/*Using the table directly or class selector .MyTable*/
+.MyTable{
+    margin: auto;/*makuing the element to the center in left and right direction but not with top and bottom*/
+    margin-top:50px;/*providing the margin-top:50px in order to bring the Margin 20 px below the screen*/
+    border:10px solid #966f33;
+}
+

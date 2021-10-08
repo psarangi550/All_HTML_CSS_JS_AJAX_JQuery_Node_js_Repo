@@ -1,0 +1,10 @@
+body{
+    padding-top: 60px;
+    background-image: url(https://pixabay.com/get/g04be6bb9f95f85796ed838d2aac7b5e3f742666362a8df1d67131227e371f8025b4cc7fb3faf4924979ef28edffc23e977197c33d210c69628f3b9a14915a69e_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* .material-icons{
+    padding-top: 15px;
+} */

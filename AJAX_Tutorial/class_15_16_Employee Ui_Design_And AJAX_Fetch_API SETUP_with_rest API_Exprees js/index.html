@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AJAX FETCH REST API for Employee Data</title>
+  <!--linking the CSS files to the URL-->
+  <link rel="stylesheet" href="../Bootstrap/fontawesome/css/all.css">
+  <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../Bootstrap/css/mdb.css">
+  <link rel="stylesheet" href="App.css">
+</head>
+<body>
+
+<!--configuring the navbar -->
+<nav class="navbar navbar-dark bg-dark">
+  <a href="#" class="navbar-brand">AJAX FETCH REST API SET UP</a>
+</nav>
+
+
+<!--- Bootstrap Buttons-->
+<div class="container mt-3">
+  <div class="row">
+    <div class="col m-auto text-center">
+      <button class="btn btn-success" id="get-btn">GET</button>
+      <button class="btn btn-secondary"id="post-btn">POST</button>
+      <button class="btn btn-warning"id="put-btn">PUT</button>
+      <button class="btn btn-danger"id="delete-btn">DELETE</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Bootstrap Table to get the Employee details-->
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <table class="table table-hover table-stripped table-bordered text-center bg-default">
+        <thead class="text-uppercase">
+        <tr>
+          <th>EMP ID</th>
+          <th>EMP  FIRST_NAME</th>
+          <th>EMP LAST_NAME</th>
+          <th>EMP EMAIL</th>
+          <th>Gender</th>
+          <th>ip_address</th>
+        </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+      </table>t
+    </div>
+  </div>
+</div>
+
+<!--here the Bootstrap Javascript file we need to  get in here -->
+<script src="../Bootstrap/js/jquery.js"></script>
+<script src="../Bootstrap/js/popper.js"></script>
+<script src="../Bootstrap/js/bootstrap.js"></script>
+<script src="../Bootstrap/js/mdb.js"></script>
+<script type="module" src="App.js"></script>
+</body>
+</html>

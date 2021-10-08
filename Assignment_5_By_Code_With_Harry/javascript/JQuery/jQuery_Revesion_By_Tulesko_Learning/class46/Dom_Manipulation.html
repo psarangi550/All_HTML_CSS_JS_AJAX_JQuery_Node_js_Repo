@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="btn1">Append</button>
+    <button id="btn2">Prepend</button>
+    <button id="btn3">After</button>
+    <button id="btn4">Before</button>
+    <br><br>
+    <button id="btn5">Remove</button>
+    <button id="btn6">Empty</button>
+    <div id="div1">
+        <p>This is First Para in 1st Div Tag</p>
+    </div>
+    <script src="jQuery.js"></script>
+    <script>
+        $("#btn1").click(function(){
+            $("p").append("<p>This is the Second Para in 1 st Div Tag</p>")
+        })
+        //Case:-2
+        $("#btn3").click(function(){
+            $("div").after("<p>This is the Second Para in 1 st Div Tag</p>")
+        })
+         //Case:-3
+         $("#btn2").click(function(){
+            $("div").prepend("<p>This is the Second Para in 1 st Div Tag</p>")
+        })
+        //Case:-4
+        $("#btn4").click(function(){
+        $("div").before("<p>This is the Second Para in 1 st Div Tag</p>")
+        })
+        //Case:-5
+        $("#btn5").click(function(){
+        // $("div").remove()
+         $("div").remove("")
+        })
+        //Case:-6
+        $("#btn6").click(function(){
+        // $("div").remove()
+         $("div").empty()
+        })
+    </script>
+</body>
+</html>

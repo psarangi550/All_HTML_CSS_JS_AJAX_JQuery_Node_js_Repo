@@ -1,0 +1,1 @@
+$("input:first").on("click")

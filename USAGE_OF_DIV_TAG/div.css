@@ -1,0 +1,7 @@
+div{/*This is the div Tage Styling*/ 
+    color: chartreuse;/*this is for providing colour to all the div  Tag in HTML */
+}
+h1{
+    color: chocolate;/*providing colour to More Specific tag called for only h1 tag then this will reflect for h1 tag only*/
+}
+/* if therer are more specific styling been provided for more accurate Tag then that will going to be get considered instead of div Tag */

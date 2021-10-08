@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jQuery-ui/jquery-ui.theme.css">
+</head>
+<body>
+    <div id="panel">
+        <h3>Different Accordian Properties</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, atque natus eius aliquam quo excepturi voluptate earum minus quis animi.</p>
+        <h3>Different Accordian Properties</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, atque natus eius aliquam quo excepturi voluptate earum minus quis animi.</p>
+        <h3>Different Accordian Properties</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, atque natus eius aliquam quo excepturi voluptate earum minus quis animi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium saepe veniam omnis nam eveniet officiis sapiente repellat, porro minima fugit perferendis fugiat ea rerum odio esse labore quibusdam sint est veritatis animi consequatur sit cumque quis. Doloremque nulla nemo aliquid voluptas maiores omnis voluptatem!</p>
+    </div>
+    <script src="jQuery.js"></script>
+    <script src="jQuery-ui/jquery-ui.js"></script>
+    <script>
+        $("#panel").accordion({
+            collapsible :true,
+            event:"mouseover",
+            animate:2000,
+            active:1,
+            heightStyle:true,
+            icons:{header:" ui-icon-circle-plus",activeHeader:"ui-icon-circle-minus"}
+
+        });
+    </script>
+</body>
+</html>
